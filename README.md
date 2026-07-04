@@ -1,23 +1,13 @@
-# immortalWrt 24.10
+# immortalWrt 24.10.x
 - Cudy TR3000
 - 360T7
 - R3G
 
 
-# padavanonly 24.10
-- Cudy TR3000
-- 360T7
-
-
-
-
 # Version
 
 	REPO_URL: https://github.com/immortalwrt/immortalwrt.git
-	REPO_BRANCH: openwrt-25.12
-  
-	REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
-	REPO_BRANCH: openwrt-24.10-6.6
+	REPO_BRANCH: v24.10.6
   
 
 # 默认设置
