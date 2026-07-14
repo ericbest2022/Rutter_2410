@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: MT7981-immortalWrt2512VPN
+name: MT7981-immortalWrt2410VPN
 
 permissions: write-all
 #开启写权限，防止无法上传到release
@@ -17,8 +17,8 @@ on:
   repository_dispatch:
   workflow_dispatch:
     #自动编译：UTC 00:00 = 中国 08:00，分,时,日,月,周
-#  schedule:
-#    - cron: 8 8 8 * *
+  schedule:
+    - cron: 8 21 9 * *
         # 分,时,日,月,周。每周 四 20时执行一次 (UTC时间)
   
 env:
