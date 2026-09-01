@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 360t7-immortalWrt24106
+name: 360t7-immortalWrt2410
 
 permissions: write-all
 #开启写权限，防止无法上传到release
@@ -23,7 +23,7 @@ on:
   
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
-  REPO_BRANCH: v24.10.6
+  REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 360t7-im.config
   DIY_P1_SH: diy-part1.sh
